@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="GSS">
+    <classes>
+      <class name="Programmes.Alerts">
+		  <methods>
+			  <include name="handlingalerts">
+				  
+			  </include>
+		 </methods>
+		  
+	 </class>
+	 <class name="Programmes.BooleanOneway">
+		 <methods>
+			 <include name="options">
+				 
+			 </include>
+		 </methods>
+		 
+	 </class>
+	 <class name="Programmes.AllLinks">
+		 <methods>
+			 <include name="Clickable">
+				 
+			 </include>
+		 </methods>
+	 </class>
+	 <class name="Programmes.Frames">
+		 <methods>
+			 <include name="Clickable">
+				 
+			 </include>
+		 </methods>
+	 </class>
+	 <class name="Programmes.Informationcommands">
+		 <methods>
+			 <include name="gmail">
+				 
+			 </include>
+		 </methods>
+	 </class>
+	 <class name="Programmes.MouseOverActions">
+		 <methods>
+			 <include name="mouseOver">
+				 
+			 </include>
+		 </methods>
+	 </class>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </classes>
+  </test> <!-- GSS -->
+</suite> <!-- Suite -->

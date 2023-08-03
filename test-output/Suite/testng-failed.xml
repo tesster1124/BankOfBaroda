@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GSS(failed)">
+    <classes>
+      <class name="Programmes.AllLinks">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="Clickable"/>
+        </methods>
+      </class> <!-- Programmes.AllLinks -->
+    </classes>
+  </test> <!-- GSS(failed) -->
+</suite> <!-- Failed suite [Suite] -->
